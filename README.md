@@ -22,4 +22,5 @@ $ cgithubinst username reposname [-force]
 ```
 cgithubinst cd01 KaoriyaVim
 cgithubinst hsk mingw-get
+cgithubinst hsk ocaml
 ```
