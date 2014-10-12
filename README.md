@@ -7,14 +7,14 @@ cgithubinit is Chocolatey github installer
 ```
 $ git clone git@github.com:hsk/chocolatey-cgithubinst.git
 $ cd chocolatey-cgithubinst
-$ cgithubinit hsk cgithubinst
+$ mk
 
 ```
 
 ## usage
 
 ```
-$ cgithubinit username reposname [-force]
+$ cgithubinst username reposname [-force]
 ```
 
 
