@@ -2,7 +2,16 @@
 
 cgithubinit is Chocolatey github installer
 
-usage
+## install
+
+```
+$ git clone git@github.com:hsk/chocolatey-cgithubinst.git
+$ cd chocolatey-cgithubinst
+$ cgithubinit hsk cgithubinst
+
+```
+
+## usage
 
 ```
 $ cgithubinit username reposname [-force]
