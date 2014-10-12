@@ -17,4 +17,9 @@ $ mk
 $ cgithubinst username reposname [-force]
 ```
 
+## examples
 
+```
+cgithubinst cd01 KaoriyaVim
+cgithubinst hsk mingw-get
+```
