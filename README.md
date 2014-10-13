@@ -7,7 +7,7 @@ cgithubinit is Chocolatey github installer
 ```
 $ git clone git@github.com:hsk/chocolatey-cgithubinst.git
 $ cd chocolatey-cgithubinst
-$ mk
+$ ctest
 
 ```
 
