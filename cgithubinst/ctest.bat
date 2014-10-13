@@ -1,5 +1,4 @@
-SET FilePath=%~dp0
-SET FilePath=%FilePath:~0,-1%
+SET FilePath=%CD%
 FOR /F "DELIMS=" %%A IN ("%FilePath%") DO SET FolderName=%%~nxA
 
 cuninst -source %CD% -force %FolderName%
