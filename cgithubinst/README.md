@@ -14,7 +14,28 @@ $ ctest
 ## usage
 
 ```
-$ cgithubinst username reposname [-force]
+$ cgithubinst username reposname [packagename] [-force]
+```
+
+## ctest
+
+ctest is easy package uninstall cpack and install tool.
+
+ctest process like follow commands.
+```
+cuinst -source %cd% package
+cpack
+cinst -source %cd% package
+```
+
+usase:
+
+```
+$ ctest
+
+or
+
+$ ctest -force
 ```
 
 ## examples
