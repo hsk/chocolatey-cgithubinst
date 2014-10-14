@@ -1,0 +1,28 @@
+---
+package:
+- xmlns: http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd
+  metadata:
+  - id:
+    - newml
+    version:
+    - 0.0.1
+    title:
+    - newml
+    authors:
+    - h_sakurai
+    owners:
+    - h_sakurai
+    licenseUrl:
+    - https://github.com/hsk/docs/tree/master/newml
+    projectUrl:
+    - https://github.com/hsk/docs/tree/master/newml
+    #iconUrl:
+    #- http://128x128-blk.png
+    requireLicenseAcceptance:
+    - 'false'
+    description:
+    - 'newml is a curly-brace, block-structured expression language. newml translate ocaml.'
+    summary:
+    - newml is new ml syntax language
+    tags:
+    - newml

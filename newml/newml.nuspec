@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>newml</id>
+    <version>0.0.1</version>
+    <title>newml</title>
+    <authors>h_sakurai</authors>
+    <owners>h_sakurai</owners>
+    <licenseUrl>https://github.com/hsk/docs/tree/master/newml</licenseUrl>
+    <projectUrl>https://github.com/hsk/docs/tree/master/newml</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>newml is a curly-brace, block-structured expression language. newml translate ocaml.</description>
+    <summary>newml is new ml syntax language</summary>
+    <tags>newml</tags>
+  </metadata>
+</package>
