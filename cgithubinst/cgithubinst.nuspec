@@ -14,7 +14,7 @@
     <licenseUrl>http://github.com/hsk/chocolatey-cgithubinst/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <dependencies>
-      <dependency id="ruby" version="" />
+      <dependency id="ruby" />
     </dependencies>
     <releaseNotes></releaseNotes>
   </metadata>

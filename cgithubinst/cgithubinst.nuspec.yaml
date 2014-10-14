@@ -7,7 +7,7 @@ package:
     title:
     - cgithubinst
     version:
-    - '0.1.2'
+    - 0.1.2
     authors:
     - h_sakurai
     owners:
@@ -28,8 +28,7 @@ package:
     - 'false'
     dependencies:
     - dependency:
-      - id: 'ruby'
-        version: ''
+      - id: ruby
     releaseNotes:
     - {}
   files:

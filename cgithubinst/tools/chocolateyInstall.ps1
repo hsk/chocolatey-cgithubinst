@@ -6,6 +6,8 @@ $files = @("cgithubinst.bat",
   "cyaml2xml.rb",
   "cxml2yaml.rb")
 
+Start-Process "gem" -ArgumentList "simple-xml"
+
 $binRoot = Get-BinRoot
 $installDir = "$binRoot\bin\"
 Write-Host "install dir is $installDir"
