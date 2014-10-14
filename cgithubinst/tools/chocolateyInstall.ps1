@@ -14,7 +14,7 @@ if (![System.IO.Directory]::Exists($installDir)) {[System.IO.Directory]::CreateD
 foreach ($file in $files) {
     Remove-Item "$installDir\$file"
 
-    Get-ChocolateyWebFile "$package" "$installDir\$file" "$url"
+    Get-ChocolateyWebFile "$package" "$installDir\$file" "$url\$file"
 }
 
 Install-ChocolateyPath "$($installDir)"
