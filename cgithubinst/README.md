@@ -42,7 +42,7 @@ $ ctest -force
 
 ```
 cgithubinst cd01 KaoriyaVim
-cgithubinst hsk mingw-get
+cgithubinst hsk cgithubinst mingw-get
 cgithubinst hsk ocaml
 
 mingw-get upgrade

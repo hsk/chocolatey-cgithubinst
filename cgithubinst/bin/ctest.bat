@@ -1,6 +1,6 @@
 SET FilePath=%CD%
 FOR /F "DELIMS=" %%A IN ("%FilePath%") DO SET FolderName=%%~nxA
-if exist "%FolderName%.nuspec.yaml" yaml2xml.rb
+if exist "%FolderName%.nuspec.yaml" cyaml2xml.rb
 
 cuninst -source %CD% -force %FolderName%
 
