@@ -1,4 +1,4 @@
-#! /usr/bin/ruby
+#! /usr/bin/ruby -Ku
 require 'yaml'
 require 'xmlsimple'
 
