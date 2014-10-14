@@ -3,7 +3,7 @@
   <metadata>
     <id>cgithubinst</id>
     <title>cgithubinst</title>
-    <version>0.1</version>
+    <version>0.1.2</version>
     <authors>h_sakurai</authors>
     <owners>h_sakurai</owners>
     <summary>cgithubinst</summary>
@@ -13,7 +13,9 @@
     <copyright></copyright>
     <licenseUrl>http://github.com/hsk/chocolatey-cgithubinst/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <dependencies></dependencies>
+    <dependencies>
+      <dependency id="ruby" version="" />
+    </dependencies>
     <releaseNotes></releaseNotes>
   </metadata>
   <files>
