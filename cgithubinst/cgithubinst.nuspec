@@ -16,7 +16,7 @@
     <dependencies>
       <dependency id="ruby" />
     </dependencies>
-    <releaseNotes></releaseNotes>
+    <releaseNotes>update</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

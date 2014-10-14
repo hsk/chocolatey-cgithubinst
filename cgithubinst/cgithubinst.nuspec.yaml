@@ -30,7 +30,7 @@ package:
     - dependency:
       - id: ruby
     releaseNotes:
-    - {}
+    - update 
   files:
   - file:
     - src: tools\**

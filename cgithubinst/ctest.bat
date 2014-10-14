@@ -5,6 +5,6 @@ if exist "%FolderName%.nuspec.yaml" yaml2xml.rb
 cuninst -source %CD% -force %FolderName%
 
 cpack
-cinst -source %CD% -force %FolderName%
+cinst -force %FolderName% -source '"%cd%;http://chocolatey.org/api/v2/"'
 
 
