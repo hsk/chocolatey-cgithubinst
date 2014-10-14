@@ -30,8 +30,10 @@ package:
     - dependency:
       - id: ruby
     releaseNotes:
-    - update 
+    - update
   files:
   - file:
     - src: tools\**
       target: tools
+    - src: bin\**
+      target: bin
