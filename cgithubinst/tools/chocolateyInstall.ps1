@@ -1,20 +1,23 @@
 ﻿$package = 'cgithubinst'
-$url = "https://github.com/hsk/chocolatey-cgithubinst/raw/master/cgithubinst/cgithubinst.bat"
-$url2 = "https://github.com/hsk/chocolatey-cgithubinst/raw/master/cgithubinst/ctest.bat"
+$url = "https://github.com/hsk/chocolatey-cgithubinst/raw/master/cgithubinst/"
+
+$files = @("cgithubinst.bat",
+  "ctest.bat",
+  "yaml2xml.rb",
+  "xml2yaml.rb")
 
 $binRoot = Get-BinRoot
-Write-Host "Bin Root is $binRoot"
 $installDir = "$binRoot\bin\"
+Write-Host "install dir is $installDir"
 if (![System.IO.Directory]::Exists($installDir)) {[System.IO.Directory]::CreateDirectory("$installDir")}
 
-Remove-Item "$installDir\cgithubinst.bat"
-Remove-Item "$installDir\ctest.bat"
+foreach ($file in $files) {
+    Remove-Item "$installDir\$file"
 
-Get-ChocolateyWebFile "$package" "$installDir\cgithubinst.bat" "$url"
-Get-ChocolateyWebFile "$package" "$installDir\ctest.bat" "$url2"
+    Get-ChocolateyWebFile "$package" "$installDir\$file" "$url"
+}
 
 Install-ChocolateyPath "$($installDir)"
-Install-ChocolateyPath "$($binRoot)"
 $env:Path += ";$installDir"
 
 Write-ChocolateySuccess $package
