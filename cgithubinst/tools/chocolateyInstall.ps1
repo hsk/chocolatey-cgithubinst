@@ -3,8 +3,8 @@ $url = "https://github.com/hsk/chocolatey-cgithubinst/raw/master/cgithubinst/"
 
 $files = @("cgithubinst.bat",
   "ctest.bat",
-  "yaml2xml.rb",
-  "xml2yaml.rb")
+  "cyaml2xml",
+  "cxml2yaml")
 
 $binRoot = Get-BinRoot
 $installDir = "$binRoot\bin\"
