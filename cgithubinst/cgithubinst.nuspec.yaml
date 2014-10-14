@@ -1,0 +1,39 @@
+---
+package:
+- xmlns: http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd
+  metadata:
+  - id:
+    - cgithubinst
+    title:
+    - cgithubinst
+    version:
+    - '0.1'
+    authors:
+    - h_sakurai
+    owners:
+    - h_sakurai
+    summary:
+    - cgithubinst
+    description:
+    - cgithubinst
+    projectUrl:
+    - http://github.com/hsk/chocolatey-cgithubinst/
+    tags:
+    - cgithubinst admin
+    copyright:
+    - {}
+    licenseUrl:
+    - http://github.com/hsk/chocolatey-cgithubinst/
+    requireLicenseAcceptance:
+    - 'false'
+    dependencies:
+    - 
+#    - dependency:
+#      - id: ''
+#        version: ''
+    releaseNotes:
+    - {}
+  files:
+  - file:
+    - src: tools\**
+      target: tools
