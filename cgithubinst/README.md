@@ -5,10 +5,13 @@ cgithubinit is Chocolatey github installer
 ## install
 
 ```
-$ git clone git@github.com:hsk/chocolatey-cgithubinst.git
-$ cd chocolatey-cgithubinst
-$ ctest
+choco install cgithubinst
+```
 
+```
+$ git clone git@github.com:hsk/chocolatey-cgithubinst.git
+$ cd chocolatey-cgithubinst/cgithubinst
+$ ctest
 ```
 
 ## usage
@@ -23,6 +26,7 @@ ctest is easy package uninstall cpack and install tool.
 
 ctest process like follow commands.
 ```
+if exist packagename cyaml2xml
 cuinst -source %cd% package
 cpack
 cinst -source %cd% package
@@ -44,7 +48,9 @@ $ ctest -force
 cgithubinst cd01 KaoriyaVim
 cgithubinst hsk cgithubinst mingw-get
 cgithubinst hsk ocaml
+```
 
+<!--
 mingw-get upgrade
 mingw-get update
 mingw-get install msys
@@ -57,4 +63,5 @@ mingw-get install mingw-developer-toolkit
 curl -kL https://raw.github.com/hcarty/ocamlbrew/master/ocamlbrew-install | env OCAMLBREW_FLAGS="-r" bash
 git clone https://github.com/protz/ocaml-installer.git
 
-```
+-->
+
