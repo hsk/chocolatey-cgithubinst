@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ocaml-ocpwin64</id>
+    <title>ocaml-ocpwin64</title>
+    <version>4.00.1.20141010</version>
+    <authors>Inria</authors>
+    <owners>h_sakurai</owners>
+    <summary>ocaml 64bit binding.</summary>
+    <description>ocaml ocpwin64 binding.
+
+http://www.typerex.org/ocpwin.html
+
+repository url
+
+https://github.com/hsk/chocolatey-cgithubinst/tree/master/ocaml-ocpwin64
+</description>
+    <projectUrl>http://caml.inria.fr/</projectUrl>
+    <tags>ocaml</tags>
+    <copyright>Copyright Inria</copyright>
+    <licenseUrl>http://ocaml.org/docs/license.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

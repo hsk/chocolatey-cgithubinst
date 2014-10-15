@@ -1,0 +1,42 @@
+---
+package:
+- xmlns: http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd
+  metadata:
+  - id:
+    - ocaml-ocpwin64
+    title:
+    - ocaml-ocpwin64
+    version:
+    - 4.00.1.20141010
+    authors:
+    - Inria
+    owners:
+    - h_sakurai
+    summary:
+    - ocaml 64bit binding.
+    description:
+    - |
+      ocaml ocpwin64 binding.
+
+      http://www.typerex.org/ocpwin.html
+
+      repository url
+
+      https://github.com/hsk/chocolatey-cgithubinst/tree/master/ocaml-ocpwin64
+
+    projectUrl:
+    - http://caml.inria.fr/
+    tags:
+    - ocaml
+    copyright:
+    - Copyright Inria
+    licenseUrl:
+    - http://ocaml.org/docs/license.html
+    requireLicenseAcceptance:
+    - 'false'
+    releaseNotes:
+    - {}
+  files:
+  - file:
+    - src: tools\**
+      target: tools
