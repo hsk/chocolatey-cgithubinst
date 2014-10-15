@@ -1,0 +1,44 @@
+---
+package:
+- xmlns: http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd
+  metadata:
+  - id:
+    - ocaml
+    title:
+    - ocaml
+    version:
+    - 4.00.1.20141015
+    authors:
+    - Inria
+    owners:
+    - h_sakurai
+    summary:
+    - ocaml is functional language
+    description:
+    - |
+      ocaml is functional lanuguage.
+      This distoribution is Cygwin base ocaml build.
+      The installer has been tested on Windows XP, Windows 7, Windows 8.
+
+      http://protz.github.io/ocaml-installer/
+
+      repository url
+
+      https://github.com/hsk/chocolatey-cgithubinst/tree/master/ocaml
+
+    projectUrl:
+    - http://caml.inria.fr/
+    tags:
+    - ocaml
+    copyright:
+    - Copyright Inria
+    licenseUrl:
+    - http://ocaml.org/docs/license.html
+    requireLicenseAcceptance:
+    - 'false'
+    releaseNotes:
+    - {}
+  files:
+  - file:
+    - src: tools\**
+      target: tools
